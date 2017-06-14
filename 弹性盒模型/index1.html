@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>感觉好着急啊</title>
+    <style>
+        div#conterbody{
+            display: -webkit-box;
+            border: solid 5px lightgreen;
+            -webkit-box-orient: horizontal;
+            width:500px;
+            height:400px;
+        }
+        div#div1{
+            background-color: aqua;
+        }
+        div#div2{
+            background-color: gold;
+            /*-webkit-box-flex: 1;*/
+        }
+        div#div3{
+            background-color: indianred;
+        }
+        div#div1,div#div2,div#div3{
+            -webkit-box-sizing: border-box;
+            /*font-size: 30px;*/
+            -webkit-box-flex:1 ;
+        }
+    </style>
+</head>
+<body>
+<div id="conterbody">
+    <div id="div1">这是小花儿1</div>
+    <div id="div2">这是小花儿2</div>
+    <div id="div3">这是小花儿3</div>
+</div>
+</body>
+</html>

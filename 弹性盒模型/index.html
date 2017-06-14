@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我为什么这么不认真</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #centerboy{
+            margin: 0 auto;
+            display:-moz-box;/*火狐*/
+            display: -webkit-box;/*谷歌*/
+            -webkit-box-orient: vertical;
+        }
+        div#left{
+            /*float:left;*/
+            width:300px;
+            padding: 10px;
+            background-color: aqua;
+            -webkit-box-ordinal-group: 3;
+        }
+        div#right{
+            /*float:right;*/
+            width:300px;
+            padding: 10px;
+            background-color: coral;
+            -webkit-box-ordinal-group: 2;
+        }
+        div#conter{
+            /*float: left;*/
+            /*width:400px;*/
+            -webkit-box-flex:1;
+            background-color: beige;
+            -webkit-box-ordinal-group: 1;
+        }
+        div#left,div#conter,div#right{
+            box-sizing:border-box ;
+        }
+    </style>
+</head>
+<body>
+<div id="centerboy">
+    <div id="left">
+        <h2>栏目列表</h2>
+        <ul>
+            <li><a href="index.html">栏目名称</a></li>
+            <li><a href="index.html">栏目名称</a></li>
+            <li><a href="index.html">栏目名称</a></li>
+            <li><a href="index.html">栏目名称</a></li>
+            <li><a href="index.html">栏目名称</a></li>
+            <li><a href="index.html">栏目名称</a></li>
+        </ul>
+    </div>
+    <div id="conter">
+        <p>
+            昨天晚上拆电脑拆到了半夜，然后两只手都划破了。昨天晚上拆电脑拆到了半夜，然后两只手都划破了。昨天晚上拆电脑拆到了半夜，然后两只手都划破了。昨天晚上拆电脑拆到了半夜，然后两只手都划破了。
+        </p>
+    </div>
+    <div id="right">
+        <h2>推荐文章</h2>
+        <ul>
+            <li><a href="index.html">文章一</a></li>
+            <li><a href="index.html">文章一</a></li>
+            <li><a href="index.html">文章一</a></li>
+            <li><a href="index.html">文章一</a></li>
+            <li><a href="index.html">文章一</a></li>
+    </div>
+</div>
+</body>
+</html>
