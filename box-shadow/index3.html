@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外面的幼儿园放学了</title>
+    <style>
+        div{
+            width:300px;
+            border:solid 30px lightcoral;
+            padding: 30px;
+            background-color: lightgreen;
+            margin: 20px auto;
+        }
+        div#a{
+            box-sizing: border-box;
+            /*300宽包含了30和30*/
+        }
+        div#b{
+            box-sizing: content-box;
+            /*300宽没有包含*/
+        }
+    </style>
+</head>
+<body>
+<h1>box-sizing属性</h1>
+<div id="a">
+    box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性
+</div>
+
+<div id="b">
+    box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性box-sizing属性
+</div>
+</body>
+</html>
