@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菠萝都坏掉了</title>
+    <style>
+        dl.run-in dt{
+            display: run-in;
+            border: solid 2px rosybrown;
+            background: lightblue;
+        }
+        dl.compact dt{
+            display: compact;
+            border: solid 2px rosybrown;
+            background: lightblue;
+        }
+        /*以上效果ie显示，其他浏览器看不出来*/
+    </style>
+</head>
+<body>
+<h1>run-in和compact</h1>
+<dl class="run-in">
+    <dt>run-in</dt>
+    <dd>如果元素后面还有block，那么run-in被放在里面</dd>
+</dl>
+<dl class="compact">
+    <dt>compact</dt>
+    <dd>如果元素后面还有block，那么compact被放在左边</dd>
+</dl>
+</body>
+</html>
