@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我想说我的课程是不是太老了</title>
+    <style>
+        div{
+            width:10px;
+            height:100px;
+            background-color: aquamarine;
+        }
+        @keyframes mycolor{
+            0%{
+                background-color:aquamarine;
+                transform: rotate(0deg);
+        }
+            10%{
+                background-color: aqua;
+                width:80px;
+                transform: rotate(10deg);
+                transform: translate(0,0);
+            }
+            20%{
+                background-color: cyan;
+                width:160px;
+                transform: rotate(20deg);
+                transform: translate(0,10);
+            }
+            40%{
+                background-color: cornflowerblue;
+                width:220px;
+                transform: rotate(30deg);
+                transform: translate(0,40);
+            }
+            80%{
+                background-color: lightblue;
+                width:440px;
+                transform: rotate(40deg);
+                transform: translate(0,80);
+            }
+            100%{
+                background-color: aquamarine;
+            }
+        }
+        div:hover{
+            animation-name: mycolor;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+<h1>animation属性</h1>
+<div></div>
+</body>
+</html>
