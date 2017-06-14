@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>项目编号嵌套</title>
+    <style>
+        h1:before{
+            content:counter(xmjsq)'.';
+            color:red;
+            font-size: 38px;
+        }
+        h1{
+            counter-increment: xmjsq;
+            counter-reset: qtjsq;
+        }
+        h2:before{
+            content:counter(xmjsq)'-'counter(qtjsq);
+            color:yellowgreen;
+            font-size: 24px;
+        }
+        h2{
+            counter-increment: qtjsq;
+        }
+    </style>
+</head>
+<body>
+<h1>喔喔喔喔喔</h1>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h1>喔喔喔喔喔</h1>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h1>喔喔喔喔喔</h1>
+<h1>喔喔喔喔喔</h1>
+<h1>喔喔喔喔喔</h1>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+<h2>今天是母亲节</h2>
+</body>
+</html>

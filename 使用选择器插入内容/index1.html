@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用选择器插入内容</title>
+    <style>
+        h2:before{
+            content:"title";
+            color:#fff;
+            padding: 1px 5px;
+            margin-right: 10px;
+            background: green;
+        }
+        h2.nocontent:before{
+            content:none;
+        }
+    </style>
+
+</head>
+<body>
+<h1>好烦好烦好烦</h1>
+<h2>好烦好烦好烦</h2>
+<h2>好烦好烦好烦</h2>
+<h2>好烦好烦好烦</h2>
+<h2 class="nocontent">好烦好烦好烦</h2>
+<h2>好烦好烦好烦</h2>
+<h2>好烦好烦好烦</h2>
+<h2>好烦好烦好烦</h2>
+</body>
+</html>
